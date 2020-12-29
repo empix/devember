@@ -1,4 +1,4 @@
-<center><h1>Devember</h1></center>
+<h1 align="center">Devember</h1>
 
 Este repositório foi feito com o objetivo de guardar e mostrar os jogos que desenvolvi para o Devember. <br>
 Você pode acessar e testar os jogos aqui: []()
