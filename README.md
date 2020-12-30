@@ -5,4 +5,4 @@ Você pode acessar e testar os jogos aqui: [https://empixx.github.io/devember/](
 
 Lista criada por: [@oYuBlum](https://twitter.com/oYuBlum/status/1333455297759891461?s=20)
 
-![List](list.png)
+![List](images/list.png)
