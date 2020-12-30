@@ -29,19 +29,18 @@ ul a {
 /* Container */
 .container {
   width: 100%;
-  height: 100%;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  gap: 100px;
-  padding-top: 80px;
 }
 
 /* Title */
 .title {
   text-shadow: -15px 18px 0px #18011b;
-  font-size: 3rem;
+  font-size: 3em;
+  margin-top: 40px;
 }
 
 /* List */
@@ -54,7 +53,7 @@ ul a {
 .game-list li a {
   display: block;
   text-shadow: -15px 18px 0px #18011b;
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 .game-list li ul li {
@@ -73,14 +72,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
   flex-direction: column;
   line-height: 25px;
-  bottom: 0;
 }
 
 footer p {
-  font-size: 0.8rem;
+  font-size: 0.8em;
 }
 
 footer p a {
@@ -93,16 +90,10 @@ footer p a:hover {
 }
 
 @media (max-width: 855px) {
-  /* Container */
-  .container {
-    padding: 40px 30px 40px 30px;
-    gap: 40px;
-  }
-
   /* Title */
   .title {
     text-shadow: -15px 18px 0px #18011b;
-    font-size: 2rem;
+    font-size: 2em;
   }
 
   /* List */
@@ -110,6 +101,7 @@ footer p a:hover {
     display: flex;
     gap: 0;
     flex-direction: column;
+    padding: 30px;
   }
 
   /* Footer */
