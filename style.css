@@ -56,6 +56,10 @@ ul a {
   font-size: 1em;
 }
 
+.game-list li a[href=''] {
+  color: #bbb;
+}
+
 .game-list li ul li {
   /* transition: transform 0.2s; */
 }
